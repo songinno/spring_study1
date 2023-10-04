@@ -22,6 +22,11 @@ dependencies {
 
 	// spring-boot-devtools
 	implementation 'org.springframework.boot:spring-boot-devtools'
+
+	// jdbc
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	// h2
+	runtimeOnly 'com.h2database:h2'
 }
 
 tasks.named('test') {
