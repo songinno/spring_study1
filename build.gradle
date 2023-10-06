@@ -24,7 +24,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-devtools'
 
 	// jdbc
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+//	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
+	// JPA
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
 	// h2
 	runtimeOnly 'com.h2database:h2'
 }

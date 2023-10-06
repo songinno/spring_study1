@@ -17,6 +17,7 @@ public class MemberController {
     @Autowired
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
+        System.out.println("memberService.getClass() = " + memberService.getClass());
     }
 
     // 회원 등록 페이지 표출
